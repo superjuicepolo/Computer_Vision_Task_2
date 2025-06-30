@@ -2,6 +2,7 @@ train: ../train/images/
 val: ../valid/images/
 test: ../test/images/
 
+
 nc: 4
 names: ['buffalo','elephant','rhino','zebra']
 
