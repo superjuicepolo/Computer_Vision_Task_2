@@ -14,6 +14,7 @@ for model_name in ["yolov10s", "yolov10m", "yolov10l"]:
         save=True
     )
 
+
     # --- EVALUATION ---
     trained_model = YOLO(os.path.join("runs/yolo_exp", f"{model_name}_animals", "weights", "best.pt"))
     eval_results = trained_model.val(
