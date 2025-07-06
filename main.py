@@ -8,7 +8,7 @@ for model_name in ["yolov10s", "yolov10m", "yolov10l"]:
         data=os.path.abspath("final_data/data_wl.yaml"),
         epochs=10,
         imgsz=320,
-        batch=16,
+        batch=4,
         project="runs/yolo_exp",
         name=f"{model_name}_animals",
         save=True
